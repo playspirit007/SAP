@@ -167,7 +167,7 @@ CLASS zcl_group4_event_data_gen IMPLEMENTATION.
         WHEN 3 OR 6.       ls_reg-status = 'Rejected'.
       ENDCASE.
 
-      ls_reg-remarks           = |Registration für Konzert { sy-index }|.
+      ls_reg-remarks           = |Registration für Event { sy-index }|.
       ls_reg-created_by        = 'GEN'.
       ls_reg-last_changed_by   = 'GEN'.
 
